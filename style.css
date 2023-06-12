@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: lightgrey;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.container .content {
+  width: 80%;
+  position: relative;
+}
+.container .content button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.container .content .right {
+  position: absolute;
+  top: 45%;
+  right: 0;
+}
+.container .content .left {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  z-index: 100;
+}
+.container .content .action {
+  width: 100%;
+  position: relative;
+  display: none;
+}
+.container .content .action img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .content .action p {
+  position: absolute;
+  bottom: 5%;
+  margin: 0 20px;
+  color: white;
+  line-height: 1.5;
+  font-size: 19px;
+}/*# sourceMappingURL=style.css.map */
